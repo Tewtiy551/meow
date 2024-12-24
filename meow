@@ -25,6 +25,14 @@ game:GetService"RunService".Stepped:Connect(function()
                    v.Character['Left Leg'].Transparency = 1
                    v.Character['Left Leg'].CanCollide = false
                    v.Character['Left Leg'].CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(1,0,-3.5)
+                   v.Character['Right Arm']:BreakJoints()
+                   v.Character['Right Arm'].Transparency = 1
+                   v.Character['Right Arm'].CanCollide = false
+                   v.Character['Right Arm'].CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(1,0,-3.5)
+                   v.Character['Right Leg']:BreakJoints()
+                   v.Character['Right Leg'].Transparency = 1
+                   v.Character['Right Leg'].CanCollide = false
+                   v.Character['Right Leg'].CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(1,0,-3.5)
                end
            end
        end
