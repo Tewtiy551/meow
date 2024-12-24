@@ -5,7 +5,7 @@ Hi Cuties
      This should bypass everything no cap
      if it doesnt, die. respectfully.
 --]]                     
-_G.Reach = 10
+_G.Reach = 200
 _G.KeyBindHigher = "q"
 _G.KeyBindLower = "e"
 _G.ReachOff = false -- 
